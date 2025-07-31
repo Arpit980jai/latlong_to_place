@@ -31,5 +31,5 @@ Add to your app’s `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  latlong_to_place: ^0.0.2
+  latlong_to_place: ^0.0.3
 
