@@ -3,7 +3,7 @@ description: A Flutter library to fetch device LatLng via geolocator and convert
 version: 0.0.3
 homepage: https://github.com/Arpit980jai/latlng_to_place
 repository: https://github.com/Arpit980jai/latlng_to_place
-publisher: arpitjai.com
+publish_to: arpitjai.com
 
 environment:
   sdk: '>=3.3.2 <4.0.0'
