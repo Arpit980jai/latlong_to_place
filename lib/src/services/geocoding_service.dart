@@ -15,7 +15,8 @@ class GeocodingService {
     if (perm == LocationPermission.deniedForever) {
       throw Exception('Location permissions are permanently denied');
     }
-    return Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+    return Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.high);
   }
 
   /// 2️⃣ Reverse-geocode any lat/lng into our PlaceInfo

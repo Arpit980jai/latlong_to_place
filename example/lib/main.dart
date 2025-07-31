@@ -4,7 +4,8 @@ import 'package:latlong_to_place/latlong_to_place.dart';
 void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
+
   @override
   State<MyApp> createState() => _MyAppState();
 }
@@ -41,14 +42,14 @@ class _MyAppState extends State<MyApp> {
           child: error != null
               ? Text('Error: $error')
               : place == null
-              ? const CircularProgressIndicator()
-              : Text(
-            '📍 ${place!.formattedAddress}\n\n'
-                'City: ${place!.city}\n'
-                'State: ${place!.state}\n'
-                'Country: ${place!.country}',
-            textAlign: TextAlign.center,
-          ),
+                  ? const CircularProgressIndicator()
+                  : Text(
+                      '📍 ${place!.formattedAddress}\n\n'
+                      'City: ${place!.city}\n'
+                      'State: ${place!.state}\n'
+                      'Country: ${place!.country}',
+                      textAlign: TextAlign.center,
+                    ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: _lookup,
