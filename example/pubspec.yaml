@@ -1,0 +1,22 @@
+name: latlong_to_place_example
+description: A simple Flutter app demonstrating latlong_to_place.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  latlong_to_place:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
