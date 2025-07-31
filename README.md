@@ -1,6 +1,6 @@
 # latlong_to_place
 
-[Top Banner](https://github.com/Arpit980jai/latlong_to_place/raw/main/assets/topbanner.png)
+![Top Banner](https://github.com/Arpit980jai/latlong_to_place/raw/main/assets/topbanner.png)
 
 
 A Flutter library to fetch the device’s current latitude/longitude via **geolocator** and convert it into detailed `PlaceInfo` (address components, city, state, country, etc.) via the null-safe **geocoding** plugin.
@@ -23,7 +23,7 @@ A Flutter library to fetch the device’s current latitude/longitude via **geolo
   - `longitude`
 
 ---
-[Bottom Banner](https://github.com/Arpit980jai/latlong_to_place/raw/main/assets/bottombanner.png)
+![Bottom Banner](https://github.com/Arpit980jai/latlong_to_place/raw/main/assets/bottombanner.png)
 
 ## Installation
 
@@ -31,5 +31,5 @@ Add to your app’s `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  latlong_to_place: ^0.0.1
+  latlong_to_place: ^0.0.2
 
