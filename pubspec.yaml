@@ -26,3 +26,4 @@ flutter:
   assets:
     - assets/topbanner.png
     - assets/bottombanner.png
+    - assets/latlongdistance.png
