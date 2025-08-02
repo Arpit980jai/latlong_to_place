@@ -7,6 +7,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.0.5] – 2025-08-02
+### Added
+- 📚 Added Dart documentation for public APIs including `DistanceService`, `distancesBetweenPoints`, and `totalDistance` to meet pub.dev score guidelines.
+- 🧭 Documented `latlong_to_place` library declaration.
+- ✅ Enabled compatibility with `public_member_api_docs` lint rule.
 
 ## [0.0.4] – 2025-08-02
 ### Added

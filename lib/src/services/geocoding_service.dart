@@ -16,7 +16,11 @@ class GeocodingService {
       throw Exception('Location permissions are permanently denied');
     }
     return Geolocator.getCurrentPosition(
-        desiredAccuracy: LocationAccuracy.high);
+      locationSettings: const LocationSettings(
+        accuracy: LocationAccuracy.high,
+      ),
+    );
+
   }
 
   /// 2️⃣ Reverse-geocode any lat/lng into our PlaceInfo

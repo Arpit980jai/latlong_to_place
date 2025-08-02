@@ -1,3 +1,5 @@
+/// A Flutter package to convert device latitude/longitude into structured address information,
+/// and to calculate distances between multiple coordinates.
 library latlong_to_place;
 
 export 'src/models/place_info.dart';
