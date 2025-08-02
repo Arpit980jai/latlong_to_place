@@ -12,7 +12,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - 🚀 Added `DistanceService` class for calculating distance between multiple LatLng points.
 - ✅ Supports output in kilometers, meters, or miles.
-- 🖼️ Included new banner image for showcasing this feature.
+- 🖼️ Included new banner image for showcasing this features.
 
 ## [0.0.3] – 2025-07-31
 - Updated the license file
