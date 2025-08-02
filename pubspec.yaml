@@ -1,6 +1,6 @@
 name: latlong_to_place
 description: A Flutter library to fetch device LatLng via geolocator and convert it into rich PlaceInfo via the null-safe geocoding plugin.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/Arpit980jai/latlng_to_place
 repository: https://github.com/Arpit980jai/latlng_to_place
 publisher: arpitjai.com
@@ -12,8 +12,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  geolocator: ^9.0.2    # for device location
-  geocoding: ^2.0.5     # for reverse-geocoding
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+
 
 dev_dependencies:
   flutter_test:

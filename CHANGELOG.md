@@ -1,16 +1,24 @@
 
 ---
 
-**`change.md`**
+### ✅ `CHANGELOG.md` (Updated)
+
 ```markdown
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+## [0.0.4] – 2025-08-02
+### Added
+- 🚀 Added `DistanceService` class for calculating distance between multiple LatLng points.
+- ✅ Supports output in kilometers, meters, or miles.
+- 🖼️ Included new banner image for showcasing this feature.
+
 ## [0.0.3] – 2025-07-31
-Updated the license file
+- Updated the license file
 
 ## [0.0.2] – 2025-07-31
-Fixed images of Readme file
+- Fixed images of Readme file
 
 ## [0.0.1] – 2025-07-31
 ### Added
@@ -19,5 +27,3 @@ Fixed images of Readme file
 - 🔄 `getPlaceInfo(lat, lng)` – reverse-geocodes arbitrary coordinates.
 - Defined `PlaceInfo` model with formatted address, street, locality, city, state, country, postal code, latitude, and longitude.
 - Documentation updated with installation, permission setup, and usage examples.
-
-*(Future versions will appear here as [0.0.x] entries.)*
